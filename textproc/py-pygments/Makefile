@@ -15,6 +15,7 @@ LICENSE=	BSD2CLAUSE
 
 USES=		python
 USE_PYTHON=	distutils concurrent autoplist
+
 NO_ARCH=	yes
 
 .include <bsd.port.pre.mk>
