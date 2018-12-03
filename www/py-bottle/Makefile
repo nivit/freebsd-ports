@@ -14,6 +14,9 @@ COMMENT=	Fast and simple WSGI-framework for small web-applications
 LICENSE=	MIT
 
 USES=		python
+
+NO_ARCH=	yes
+
 USE_PYTHON=	autoplist concurrent distutils
 
 .include <bsd.port.mk>
